@@ -1,0 +1,1765 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Linux Freak!</title>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="CHARSET" content="Shift_JIS" />
+<meta name="FORMAT" content="text/html" />
+<meta name="SECURITY" content="public" />
+<meta name="COUNTRY" content="jp" />
+<meta name="DC.LANGUAGE" scheme="rfc1766" content="ja-JP" />
+</head>
+<body text="#00008b" bgcolor="#ffffea" alink="#00f0f0">
+<P><FONT COLOR="Orchid"><B>Linux Freak!</B></FONT>　(2018/05/06)
+<BR>&nbsp;
+<CENTER><TABLE BORDER=0>
+
+<TR>
+<TH width="180">　</TH>
+<TH width="60">　</TH>
+<TH width="56">　</TH>
+<TH>　</TH>
+</TR>
+
+<TR>
+<TH BGCOLOR="#8888FF" COLSPAN=4><FONT SIZE=4 COLOR="#FFFFFF">最新情報の追っかけ</FONT></TH>
+</TR>
+
+<TR>
+<TD>カーネル追っかけ</TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>
+<A HREF="http://www.kernel.org/">kernel.org </A>
+<A HREF="http://rt.wiki.kernel.org/">RT Wiki </A>
+<A HREF="http://lwn.net/daily/">LWN.net </A>
+</TD>
+</TR>
+
+<TR>
+<TD>日本語ニュース</TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>
+<A HREF="http://www.atmarkit.co.jp/flinux/index.html">Linux Square </A>
+<A HREF="http://linux.nikkeibp.co.jp/">日経Linux </A>
+<A HREF="http://www-6.ibm.com/jp/developerworks/">IBM Developer Works </A>
+<A HREF="http://distrofreak.seesaa.net/">Distro Freak </A>
+</TD>
+</TR>
+
+<TR>
+<TD>英語ニュース</TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>
+<A HREF="http://www.linuxtoday.org/">Linux Today </A>
+<A HREF="http://www.linuxworld.com/">Linux World </A>
+<A HREF="http://www.linuxhardware.org/">Linux Hardware </A>
+<A HREF="http://distrowatch.com/">DistroWatch.com </A>
+</TD>
+</TR>
+
+<TR>
+<TD>オープンソースコミュニティ</TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>
+OSDN(
+<A HREF="http://osdn.com/">us </A>
+/
+<A HREF="http://osdn.jp/">jp </A>
+)
+Slashdot(
+<A HREF="http://slashdot.org">us </A>
+/
+<A HREF="http://slashdot.jp/index.pl">jp </A>
+)
+Engadget(
+<A HREF="http://www.engadget.com/">us </A>
+/
+<A HREF="http://japanese.engadget.com/">jp </A>
+)
+Sourceforge(
+<A HREF="http://sourceforge.net/">us </A>
+/
+<A HREF="http://www.sourceforge.jp/">jp </A>
+)
+<A HREF="http://japan.internet.com/linuxtoday/">Linux Today </A>
+<A HREF="http://www.linux.com/">Linux.com </A>
+<A HREF="http://opentechpress.jp/">Open Tech Press </A>
+<A HREF="http://thinkgeek.com/">ThinkGeek </A>
+</TD>
+</TR>
+
+<TR>
+<TD>アプリケーション</TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>
+<A HREF="ftp://alpha.gnu.org/gnu/">GNU </A>
+<A HREF="http://freecode.com/">FreeCode </A>
+<A HREF="http://www.filewatcher.org/">File Watcher </A>
+</TD>
+</TR>
+
+<TR>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+</TR>
+
+<TR>
+<TH BGCOLOR="#8888FF" COLSPAN=4><FONT SIZE=4 COLOR="#FFFFFF">技術メモ・調査報告</FONT></TH>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.linux24.com/linux/linuxtoday/article/article464960-000.html?wn">Linux2.4の素晴らしき世界 </A></TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>Linux 2.2→2.4の変更点について解説した文書。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.atnf.csiro.au/~rgooch/linux/docs/">Richard Gooch </A></TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>Linuxカーネル関連のドキュメント。</TD>
+</TR>
+
+<TR>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+</TR>
+
+<TR>
+<TH BGCOLOR="#8888FF" COLSPAN=4><FONT SIZE=4 COLOR="#FFFFFF">カーネル / モジュール / パッチ</FONT></TH>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.gnu.org/software/grub/">GNU GRUB </A></TD>
+<TD>2.02</TD>
+<TD>17/04/26</TD>
+<TD>Linuxブートローダ。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://syslinux.zytor.com/">SYSLINUX </A></TD>
+<TD>6.03</TD>
+<TD>14/10/06</TD>
+<TD>Linuxブートローダ。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.kernel.org/pub/linux/kernel/v2.4/">Kernel 2.4.X </A></TD>
+<TD>2.4.37.11</TD>
+<TD>10/12/18</TD>
+<TD>
+関連:
+<A HREF="http://surriel.com/patches/">rmap VM </A>
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.kernel.org/pub/linux/kernel/v2.6/">Kernel 2.6.X </A></TD>
+<TD>2.6.32.65</TD>
+<TD>14/12/13</TD>
+<TD>
+関連:
+<A HREF="http://www.codemonkey.org.uk/post-halloween-2.5.txt">The post-halloween document </A>
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.kernel.org/pub/linux/kernel/v3.x/">Kernel 3.X </A></TD>
+<TD>3.19.8</TD>
+<TD>15/05/11</TD>
+<TD>20周年記念のメジャーバージョンアップ。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.kernel.org/pub/linux/kernel/v4.x/">Kernel 4.X </A></TD>
+<TD>4.16.7</TD>
+<TD>18/05/02</TD>
+<TD>成行でメジャーバージョンアップ。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.nsa.gov/research/selinux/index.shtml">SE Linux </A></TD>
+<TD>20080915</TD>
+<TD>08/09/15</TD>
+<TD>
+GPLな Linux のセキュリティ拡張モジュール。<BR>
+関連:
+<A HREF="http://www.selinux.jp/index.html">日本語情報源 </A>
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.tech9.net/rml/linux/">Preemptive Kernel Patch </A></TD>
+<TD>　</TD>
+<TD>01/12/22</TD>
+<TD>kernel 2.4.x をプリエンプティブにするパッチ。(効果と安定性は?)<BR>
+関連:
+<A HREF="http://kpreempt.sourceforge.net/">The Linux kernel preemption project </A>
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://lkst.sourceforge.jp/">Linux Kernel State Tracer (LKST) </A></TD>
+<TD>2.3.1</TD>
+<TD>05/10/08</TD>
+<TD>カーネルの状態遷移をイベントとしてログに記録し、カーネルの障害解析を支援するツール。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://lkcd.sourceforge.net/">Linux Kernel Crash Dump (LKCD) </A></TD>
+<TD>6.1.0</TD>
+<TD>04/12/17</TD>
+<TD>Kernelにクラッシュダンプ機能を追加。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://sourceware.org/systemtap/">SystemTap </A></TD>
+<TD>1.0</TD>
+<TD>09/09/22</TD>
+<TD>Kernel 2.6.x 用のシステムデバッグフレームワーク。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://mkdump.sourceforge.net/">Mini Kernel Dump </A></TD>
+<TD>3.0</TD>
+<TD>06/03/30</TD>
+<TD>LKCDより信頼性が高いクラッシュダンプを目指す。2.4.27/2.6.6用パッチ。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://ltp.sourceforge.net/">Linux Test Project </A></TD>
+<TD>20060717</TD>
+<TD>06/07/17</TD>
+<TD>Linuxの安定性をチェックするツール。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://samba.org/picturebook/">VAIO capture program </A></TD>
+<TD>0.2</TD>
+<TD>00/07/25</TD>
+<TD>VAIO C1内蔵カメラ用のドライバ＼(^o^)／。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://aufs.sourceforge.net/">AUFS </A></TD>
+<TD>4.17-rc2</TD>
+<TD>18/04/23</TD>
+<TD>UNIONFSの別実装。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://rarfaxp.riken.go.jp/~baba/acquisition/rtlinux/">RTLinux </A></TD>
+<TD>3.0</TD>
+<TD>01/05/22</TD>
+<TD>
+カーネルとハードウェア割込みハンドラの間にハードリアルタイム層を設け、
+リアルタイム割込みをサポートする。
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.mosix.cs.huji.ac.il/">MOSIX </A></TD>
+<TD>4.4.4</TD>
+<TD>17/10/24</TD>
+<TD>LinuxでのPCクラスタ構築をサポートするソフト。</TD>
+</TR>
+
+<TR>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+</TR>
+
+<TR>
+<TH BGCOLOR="#8888FF" COLSPAN=4><FONT SIZE=4 COLOR="#FFFFFF">基本ソフト / ライブラリ</FONT></TH>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.gnu.org/software/libc/libc.html">glibc2 </A></TD>
+<TD>2.27</TD>
+<TD>18/02/01</TD>
+<TD>標準Ｃライブラリ。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.gnu.org/software/pth/">GNU Pth </A></TD>
+<TD>2.0.7</TD>
+<TD>06/06/08</TD>
+<TD>pthreadライブラリ。</TD>
+</TR>
+
+<TR>
+<TD>RPM</TD>
+<TD><A HREF="http://rpm5.org/">5.4.17</A></TD>
+<TD>16/05/12</TD>
+<TD>RHL標準のパッケージ管理ツール。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://kitenet.net/programs/alien/">Alien </A></TD>
+<TD>8.95</TD>
+<TD>16/10/16</TD>
+<TD>*.deb, *.rpm, *.tgz の相互変換ツール。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://samba.anu.edu.au/samba/">samba </A></TD>
+<TD>4.8.1<BR>4.7.7</TD>
+<TD>18/04/26<BR>18/04/17</TD>
+<TD>UNIXのファイルをWindowsのファイル共有機構を使って取扱うためのソフト。<BR>
+関連:
+<A HREF="http://wiki.samba.gr.jp/mediawiki/index.php">Samba-JP Wiki </A>
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.obdev.at/products/sharity/">Sharity </A></TD>
+<TD>3.7</TD>
+<TD>09/04/07</TD>
+<TD>WindowsのファイルをUNIXから取扱うためのソフト(CIFS)。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://busybox.net/">BusyBox </A></TD>
+<TD>1.28.3</TD>
+<TD>18/04/03</TD>
+<TD>組み込み用途向け基本コマンド集。</TD>
+</TR>
+
+<TR>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+</TR>
+
+<TR>
+<TH BGCOLOR="#8888FF" COLSPAN=4><FONT SIZE=4 COLOR="#FFFFFF">日本語入力</FONT></TH>
+</TR>
+
+<TR>
+<TD><A HREF="http://code.google.com/p/mozc/">Mozc </A></TD>
+<TD>1.4.1003.102</TD>
+<TD>12/03/13</TD>
+<TD>オープンソースになったGoogle日本語入力エンジン。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://sourceforge.jp/projects/anthy/">Anthy </A></TD>
+<TD>9100h</TD>
+<TD>09/02/09</TD>
+<TD>Hekeプロジェクトのかな漢字変換エンジン。
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://canna.sourceforge.jp/">かんな </A></TD>
+<TD>3.7p3</TD>
+<TD>04/05/20</TD>
+<TD>日本語入力ソフト。<BR>
+関連:
+<A HREF="http://cgi3.osk.3web.ne.jp/~nowaki/computer/canna.html">かんな辞書(拡張版) </A>
+</TD>
+</TR>
+
+<TR>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+</TR>
+
+<TR>
+<TH BGCOLOR="#8888FF" COLSPAN=4><FONT SIZE=4 COLOR="#FFFFFF">ネットワーク</FONT></TH>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.ohse.de/uwe/ftpcopy.html">ftpcopy </A></TD>
+<TD>0.6.7</TD>
+<TD>04/08/10</TD>
+<TD>FTPによるファイルコピーツール。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.mutt.org">mutt </A></TD>
+<TD>1.9.5</TD>
+<TD>18/04/13</TD>
+<TD>メールクライアント。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://sylpheed.sraoss.jp/ja/">Sylpheed </A></TD>
+<TD>3.7</TD>
+<TD>18/01/31</TD>
+<TD>GUIのメールクライアント。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.fetchmail.info/">fetchmail </A></TD>
+<TD>6.3.26</TD>
+<TD>13/04/23</TD>
+<TD>電子メールの受信/転送ツール。数多くのプロトコルをサポート。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://w3m.sourceforge.net/">w3m </A></TD>
+<TD>0.5.3</TD>
+<TD>11/01/15</TD>
+<TD>HTMLインタプリタ内蔵ページャ。<BR>
+関連:
+<A HREF="http://www2u.biglobe.ne.jp/~hsaka/w3m/index-ja.html#img">インライン画像表示パッチ </A>
+<A HREF="http://abe.nwr.jp/w3m/w3m-js.html">JavaScript対応パッチ </A>
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://gipmsg.sourceforge.net/">Gnome IP Messenger </A></TD>
+<TD>0.4.0beta1</TD>
+<TD>99/11/21</TD>
+<TD>IP Messenger クライアント。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://gtk-gnutella.sourceforge.net/">Gtk-Gnutella </A></TD>
+<TD>1.1.13</TD>
+<TD>17/10/22</TD>
+<TD>インターネット上のリソースを動的に検索するためのクライアント。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.mozilla.org/">Firefox </A></TD>
+<TD>25.0</TD>
+<TD>13/10/30</TD>
+<TD>Mozilla亜種。
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://httpd.apache.org/">Apache </A></TD>
+<TD>2.0.65<BR>2.2.34<BR>2.4.33</TD>
+<TD>11/07/09<BR>17/07/11<BR>18/03/17</TD>
+<TD>現在主流のhttpサーバ。<BR>
+関連:
+<A HREF="http://www.apache.jp/">日本Apacheユーザ会 </A>
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://tomcat.apache.org/">Tomcat </A></TD>
+<TD>8.5.31<BR>9.0.8</TD>
+<TD>18/05/03<BR>18/05/03</TD>
+<TD>JAVAサーブレットコンテナ。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://tigervnc.org/">TigerVNC </A></TD>
+<TD>1.8.0</TD>
+<TD>17/05/16</TD>
+<TD>RFBプロトコルによるリモートデスクトップ環境。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.rdesktop.org/">rdesktop </A></TD>
+<TD>1.8.3</TD>
+<TD>15/08/17</TD>
+<TD>Windowsリモートデスクトップ用クライアント。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="https://sourceforge.net/projects/slsnif/">SLSNIF </A></TD>
+<TD>0.4.4</TD>
+<TD>05/05/10</TD>
+<TD>シリアル回線モニタツール。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.tcpdump.org/">tcpdump </A></TD>
+<TD>4.9.2</TD>
+<TD>17/09/03</TD>
+<TD>ネットワークパケットをモニタするツール。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.monkey.org/~dugsong/dsniff/">dsniff </A></TD>
+<TD>2.4b1</TD>
+<TD>01/03/19</TD>
+<TD>強力なネットワークパケット解析ツール。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://wireshark.org/">Wireshark </A></TD>
+<TD>2.6.0</TD>
+<TD>18/04/24</TD>
+<TD>ネットワークプロトコルアナライザ。Etherealの後継。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.ntop.org/">ntopng </A></TD>
+<TD>3.2</TD>
+<TD>17/12/04</TD>
+<TD>刻々のネットワーク使用状況をモニタするツール。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.snort.org/">Snort </A></TD>
+<TD>3.0.0-a4 build_243<BR>2.9.11.1</TD>
+<TD>18/02/13<BR>17/12/06</TD>
+<TD>定番IDS/IPSソフトウェア。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.packetfence.org/">PacketFence </A></TD>
+<TD>8.0.0</TD>
+<TD>18/04/26</TD>
+<TD>NACソフトウェア。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.insecure.org/nmap/">nmap </A></TD>
+<TD>7.70</TD>
+<TD>18/03/20</TD>
+<TD>ステルスポートスキャナ。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="https://zmap.io/">ZMap </A></TD>
+<TD>2.1.1</TD>
+<TD>15/09/12</TD>
+<TD>高速なネットワークスキャナ。</TD>
+</TR>
+
+<TR>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+</TR>
+
+<TR>
+<TH BGCOLOR="#8888FF" COLSPAN=4><FONT SIZE=4 COLOR="#FFFFFF">データベース</FONT></TH>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.linuxlinks.com/Software/Databases/">Databases... </A></TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>Linux Links のデータベースカテゴリ。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.unixodbc.org/">unixODBC </A></TD>
+<TD>2.3.6</TD>
+<TD>18/03/19</TD>
+<TD>UNIXでもODBC(^^)。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.mysql.com/">MySQL </A></TD>
+<TD>8.0.11</TD>
+<TD>18/04/19</TD>
+<TD>ひたすらスピードを追求しているフリーのRDBMS。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.postgresql.org/">PostgreSQL </A></TD>
+<TD>10.3</TD>
+<TD>18/03/01</TD>
+<TD>最先端の機能を追求しているフリーのRDBMS。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.firebirdsql.org/">Firebird </A></TD>
+<TD>3.0.3</TD>
+<TD>18/02/02</TD>
+<TD>InterBase 6.0から派生した商用RDBMS。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.oracle.co.jp/">Oracle </A></TD>
+<TD>11g R2</TD>
+<TD>　</TD>
+<TD>商用の大手RDBMS。2006/02/28 無償版 XE リリース。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.objectivity.com/">Objectivity/DB </A></TD>
+<TD>8.0.4</TD>
+<TD>04/02/17</TD>
+<TD>商用のOODB。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://fishshell.com/">fish </A></TD>
+<TD>2.7.1</TD>
+<TD>17/12/22</TD>
+<TD>最近出てきたコマンドラインシェルの一つ。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.psn.co.jp/PostgreSQL/pgbash/">pgbash </A></TD>
+<TD>8r4.1</TD>
+<TD>11/08/25</TD>
+<TD>bashにSQLを実行する機能を追加したもの。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.orca.med.or.jp/">日医標準レセプトソフト(ORCA) </A></TD>
+<TD>5.0.0</TD>
+<TD>17/02/21</TD>
+<TD>オープンソースの診療報酬明細計算システム。</TD>
+</TR>
+
+<TR>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+</TR>
+
+<TR>
+<TH BGCOLOR="#8888FF" COLSPAN=4><FONT SIZE=4 COLOR="#FFFFFF">便利なツール</FONT></TH>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.memtest86.com/">Memtest86 </A></TD>
+<TD>7.5</TD>
+<TD>18/02/21</TD>
+<TD>物理メモリの不良をチェックするプログラム。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://clonezilla.org/">Clonezilla Live </A></TD>
+<TD>2.5.5-38</TD>
+<TD>18/03/30</TD>
+<TD>ファイルシステムのバックアップツール。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.clamav.net/">Clam AntiVirus </A></TD>
+<TD>0.100.0</TD>
+<TD>18/04/09</TD>
+<TD>ウィルスチェックプログラム。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.wwdsi.com/saint/">SAINT </A></TD>
+<TD>7.4.7</TD>
+<TD>10/09/15</TD>
+<TD>セキュリティテストプログラム。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://perso.wanadoo.fr/sebastien.godard/">sysstat </A></TD>
+<TD>11.7.3</TD>
+<TD>18/04/06</TD>
+<TD>
+性能解析コマンド sar と iostat。<BR>
+関連:
+<A HREF="ftp://metalab.unc.edu/pub/Linux/system/status/%21INDEX.html">システム状態解析ツール集(UNC) </A>
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://sourceforge.net/projects/memwatch/">memwatch </A></TD>
+<TD>2.71</TD>
+<TD>03/05/20</TD>
+<TD>メモリリーク検出ツール。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.libslack.org/daemon/">daemon </A></TD>
+<TD>0.6.4</TD>
+<TD>10/06/12</TD>
+<TD>ターゲットプログラムをdaemonとして起動するツール。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://cr.yp.to/daemontools.html">daemontools </A></TD>
+<TD>0.76</TD>
+<TD>01/07/12</TD>
+<TD>UNIXサービス管理ツール。<BR>
+関連:
+<A HREF="http://www.otsune.com/fswiki/daemontools.html">日本語Wiki </A>
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://recover.sourceforge.net/">recover </A></TD>
+<TD>1.0a</TD>
+<TD>00/04/20</TD>
+<TD>ext2-fs上の削除ファイル復旧を支援するツール。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://jfbterm.sourceforge.jp/">JFBTERM/ME </A></TD>
+<TD>0.4.3</TD>
+<TD>03/09/15</TD>
+<TD>フレームバッファ対応の日本語コンソールドライバ。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.lordsutch.com/chris/ppmtofb.html">ppmtofb </A></TD>
+<TD>0.29</TD>
+<TD>01/07/08</TD>
+<TD>フレームバッファにppm画像を表示するツール。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://kassiopeia.juls.savba.sk/~garabik/software/grc.html">Generic Colouriser </A></TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>テキストに着色するフィルタ。
+</TD>
+</TR>
+
+<TR>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+</TR>
+
+<TR>
+<TH BGCOLOR="#8888FF" COLSPAN=4><FONT SIZE=4 COLOR="#FFFFFF">サウンド / MP3関連</FONT></TH>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.alsa-project.org/">ALSA driver </A></TD>
+<TD>1.1.6</TD>
+<TD>18/04/03</TD>
+<TD>Linuxサウンドドライバ。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.mpg123.de/">mpg123 </A></TD>
+<TD>1.25.10</TD>
+<TD>18/03/05</TD>
+<TD>CUIのMP3プレーヤ</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.timidity.jp/index-jp.html">TiMidity++ </A></TD>
+<TD>2.11.3</TD>
+<TD>02/01/18</TD>
+<TD>MIDI to WAVE converter/player</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://freshmeat.net/projects/cdrecord/">cdrtools </A></TD>
+<TD>3.01a24</TD>
+<TD>14/05/07</TD>
+<TD>CD-Rを焼くツール。</TD>
+</TR>
+
+<TR>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+</TR>
+
+<TR>
+<TH BGCOLOR="#8888FF" COLSPAN=4><FONT SIZE=4 COLOR="#FFFFFF">プログラミング言語 / ツールキット</FONT></TH>
+</TR>
+
+<TR>
+<TD><A HREF="http://gcc.gnu.org/">GCC </A></TD>
+<TD>8.1</TD>
+<TD>18/05/02</TD>
+<TD>C/C++/Fortran77等の統合コンパイラ。<BR>
+関連:
+<A HREF="http://gcc.gnu.org/cgi-bin/cvsweb.cgi/gcc/ChangeLog">CVSlog </A>
+<A HREF="http://gcc.gnu.org/develop.html">Development Plan </A>
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://bellard.org/tcc/">Tiny C Compiler </A></TD>
+<TD>0.9.26</TD>
+<TD>13/02/15</TD>
+<TD>軽量なC99コンパイラ。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.intel.com/software/products/compilers/clin/">ICC </A></TD>
+<TD>11.0.74</TD>
+<TD>09/04/05</TD>
+<TD>Intelの高性能C++コンパイラ。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="https://staff.aist.go.jp/y.oiwa/FailSafeC/">FailSafe C </A></TD>
+<TD>1.6.0</TD>
+<TD>09/11/02</TD>
+<TD>メモリ操作の安全性を保証するANSI-Cコンパイラ。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.splint.org/">Splint </A></TD>
+<TD>3.1.2</TD>
+<TD>07/07/12</TD>
+<TD>パブリックドメイン版のLINT。
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://sources.redhat.com/gdb/">GDB </A></TD>
+<TD>8.1</TD>
+<TD>18/01/31</TD>
+<TD>GNUデバッガ。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.gnu.org/software/ddd/">DDD </A></TD>
+<TD>3.3.12</TD>
+<TD>09/02/11</TD>
+<TD>Data Display Debugger。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://bastard.sourceforge.net/">bastard </A></TD>
+<TD>0.17</TD>
+<TD>03/08/07</TD>
+<TD>The bastard disassembler。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.lazarus.freepascal.org/">Lazarus </A></TD>
+<TD>1.8.2</TD>
+<TD>18/02/28</TD>
+<TD>Delphiそっくりの統合開発環境。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.kprolog.com/">K-Prolog </A></TD>
+<TD>6.0.1</TD>
+<TD>07/12/25</TD>
+<TD>Prolog処理系。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.newlisp.org/">newLISP </A></TD>
+<TD>10.7.3</TD>
+<TD>17/10/09</TD>
+<TD>イマドキのLL風味なLisp。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://clisp.sourceforge.net/">GNU CLISP </A></TD>
+<TD>2.49</TD>
+<TD>10/07/07</TD>
+<TD>移植性に優れたANSI Common Lisp。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.cons.org/cmucl/">CMUCL </A></TD>
+<TD>21b<BR>2017-04 snapshot</TD>
+<TD>16/10/09<BR>17/04/09</TD>
+<TD>高速ネイティブコンパイラを備えたANSI Common Lisp。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.sbcl.org/">Steel Bank Common Lisp </A></TD>
+<TD>1.4.7</TD>
+<TD>18/04/29</TD>
+<TD>CMUCLの拡張・実験ブランチ。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://practical-scheme.net/gauche/index-j.html">Gauche </A></TD>
+<TD>0.9.5</TD>
+<TD>16/10/08</TD>
+<TD>R5RS準拠のScheme処理系。マルチバイト対応。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.racket-lang.org/">Racket </A></TD>
+<TD>6.12</TD>
+<TD>18/01/26</TD>
+<TD>R6RS準拠のScheme処理系。元PLT Scheme。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.littlewingpinball.net/mediawiki-ja/index.php/Ypsilon_Scheme_System">Ypsilon </A></TD>
+<TD>0.9.6 update3</TD>
+<TD>08/12/23</TD>
+<TD>R6RS準拠のScheme処理系。ピンボールの実装用言語として開発された。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.call-with-current-continuation.org/">CHICKEN </A></TD>
+<TD>4.13.0</TD>
+<TD>17/12/11</TD>
+<TD>R5RS準拠のScheme→Cコンパイラ。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.haskell.org/ghc/">GHC </A></TD>
+<TD>8.4.2</TD>
+<TD>18/04/19</TD>
+<TD>Haskell処理系。<BR>
+関連:
+<A HREF="http://hackage.haskell.org/platform/">Haskell Platform </A>
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://caml.inria.fr/">OCaml </A></TD>
+<TD>4.06.1</TD>
+<TD>18/02/16</TD>
+<TD>フランスの INRIA で開発された ML (Meta Language) の方言の一つ。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.pllab.riec.tohoku.ac.jp/smlsharp/ja/">SML# </A></TD>
+<TD>3.4.0</TD>
+<TD>17/08/31</TD>
+<TD> 東北大学電気通信研究所が開発している、Standard MLと上位互換性を持つ次世代ML言語。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.squeak.org/">Squeak </A></TD>
+<TD>5.1-16549<BR>6.0alpha-17932</TD>
+<TD>16/09/26<BR>18/05/05</TD>
+<TD>マルチメディア・マルチプラットフォームなSmalltalk処理系。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://smalltalk.gnu.org/">GNU Smalltalk </A></TD>
+<TD>3.3</TD>
+<TD>13/04/13</TD>
+<TD>Smalltalk処理系。いったい誰が使うのかなー(^^;)</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://gprolog.univ-paris1.fr/">GNU Prolog </A></TD>
+<TD>1.4.4</TD>
+<TD>13/04/23</TD>
+<TD>Prolog処理系。いったい誰が使うのかなー(^^;)</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://iolanguage.org/">Io </A></TD>
+<TD>2015.11.11</TD>
+<TD>15/11/11</TD>
+<TD>プロトタイプベース言語のIo処理系。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://reduce-algebra.sourceforge.net/">REDUCE </A></TD>
+<TD>20101007</TD>
+<TD>10/10/07</TD>
+<TD>オープンソースになった由緒正しき数式処理システム。
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://maxima.sourceforge.net/">Maxima </A></TD>
+<TD>5.41.0</TD>
+<TD>17/10/03</TD>
+<TD>DOE-Macsymaベースのオープンソースの数式処理システム。<BR>
+関連:
+<A HREF="http://www.bekkoame.ne.jp/~ponpoko/Math/maxima/MaximaMAIN.html">Maximaで遊ぼう </A>
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.sagemath.org/">SAGE </A></TD>
+<TD>8.1</TD>
+<TD>17/12/07</TD>
+<TD>オープンソースの数式処理システム。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://scigraphica.sourceforge.net/">SciGraghica </A></TD>
+<TD>2.1.0</TD>
+<TD>05/06/23</TD>
+<TD>グラフ生成システム。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.r-project.org/">R </A></TD>
+<TD>3.5.0</TD>
+<TD>18/04/23</TD>
+<TD>統計解析ソフト。<BR>
+関連:
+<A HREF="http://www.okada.jp.org/RWiki/index.php">R日本語化プロジェクト </A>
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.perl.org/">Perl </A></TD>
+<TD>5.26.2</TD>
+<TD>18/04/14</TD>
+<TD>文字列処理やシステムコール処理が得意なスクリプト言語。<BR>
+関連:
+<A HREF="http://www.cpan.org/">CPAN </A>
+<A HREF="http://pugscode.org/">Pugs </A>
+<A HREF="http://rakudo.org/">Rakudo Star 2011.04 </A>
+<A HREF="http://www.parrot.org/">Parrot 3.4.0 </A>
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.python.org/">Python </A></TD>
+<TD>3.6.5</TD>
+<TD>18/03/28</TD>
+<TD>オブジェクト指向で多機能なスクリプト言語。<BR>
+関連:
+<A HREF="http://python.jp/Zope">日本Pythonユーザ会 </A>
+<A HREF="http://pypy.org/">PyPy </A>
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.ruby-lang.org/ja/">Ruby </A></TD>
+<TD>2.5.1</TD>
+<TD>18/03/28</TD>
+<TD>オブジェクト指向で多機能なスクリプト言語。<BR>
+関連:
+<A HREF="http://rubini.us/">Rubinius </A>
+<A HREF="https://github.com/mruby/mruby">mruby </A>
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.tcl.tk/">Tcl/Tk </A></TD>
+<TD>8.6.8</TD>
+<TD>17/12/22</TD>
+<TD>スクリプト言語とGUIツールキット。
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://golang.org/">Go </A></TD>
+<TD>1.10</TD>
+<TD>18/02/16</TD>
+<TD>C言語風のGoogle言語。
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://nim-lang.org/">Nim </A></TD>
+<TD>0.18.0</TD>
+<TD>18/03/01</TD>
+<TD>Python風の言語。C言語のソースコードに展開され、実行が高速なのが特長。
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.rust-lang.org/">Rust </A></TD>
+<TD>1.25.0</TD>
+<TD>18/03/29</TD>
+<TD>Mozillaが参画している並列マルチパラダイム言語。今のところ言語仕様が流動的すぎて使えない。
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.erlang.org/">Erlang </A></TD>
+<TD>OTP 21.0-rc1</TD>
+<TD>18/03/02</TD>
+<TD>エリクソンが開発した平行処理指向の関数型言語(Prolog風味)。
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.elixir-lang.org/">Elixir </A></TD>
+<TD>1.6</TD>
+<TD>18/01/17</TD>
+<TD>Erlangで実装されている並列処理の関数型言語(Ruby風味)。
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://kakunin.chat.ru/tcldev/">Tcl Developer Studio </A></TD>
+<TD>1.0</TD>
+<TD>99/07/12</TD>
+<TD>Tcl/Tk統合開発環境。
+</TR>
+
+<TR>
+<TD><A HREF="http://sources.redhat.com/sourcenav/">Source Navigator NG</A></TD>
+<TD>4.5</TD>
+<TD>14/04/05</TD>
+<TD>C/C++/etcプログラム開発環境。
+</TR>
+
+<TR>
+<TD><A HREF="http://www.octave.org/">Octave </A></TD>
+<TD>4.4.0</TD>
+<TD>18/04/30</TD>
+<TD>数値計算用の言語環境。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.jedsoft.org/slang/">S-Lang </A></TD>
+<TD>2.3.2</TD>
+<TD>18/03/04</TD>
+<TD>アプリケーションに組み込むインタプリタ言語。</TD>
+</TR>
+
+<TR>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+</TR>
+
+<TR>
+<TH BGCOLOR="#8888FF" COLSPAN=4><FONT SIZE=4 COLOR="#FFFFFF">仮想化技術</FONT></TH>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.colinux.org/">coLinux </A></TD>
+<TD>0.7.9<BR>devel-r1598</TD>
+<TD>11/01/09<BR>12/05/31</TD>
+<TD>Windows 2000/XP上のアプリケーションとして動作するLinux。<BR>
+<A HREF="http://www.henrynestler.com/colinux/">snapshot </A>
+<A HREF="http://www.geocities.jp/error_storm/">ERROR STORM </A>
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://user-mode-linux.sourceforge.net/">User Mode Linux </A></TD>
+<TD>3.12.3</TD>
+<TD>　</TD>
+<TD>Linux上の1アプリケーションとして動作する仮想Linux。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://openvz.org/">OpenVZ </A></TD>
+<TD>2.6.18-028stable064.7</TD>
+<TD>09/09/02</TD>
+<TD>FreeBSDのjailに似たOS仮想化技術。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.xen.org/">Xen </A></TD>
+<TD>4.10.1</TD>
+<TD>18/05/03</TD>
+<TD>x86仮想マシン技術。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://lguest.ozlabs.org/">Lguest </A></TD>
+<TD>2.6.23-git13</TD>
+<TD>07/08/02</TD>
+<TD>The Simple x86 Hypervisor</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://bellard.org/jslinux/">JS/Linux </A></TD>
+<TD>　</TD>
+<TD>11/05/17</TD>
+<TD>JavaScriptで実装したx86エミュレータ。凄過ぎる!!</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.vmware.com/">VMware Player </A></TD>
+<TD>6.0.0#1295980</TD>
+<TD>13/09/03</TD>
+<TD>フリーのx86仮想マシン。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.virtualbox.org/">VirtualBox </A></TD>
+<TD>5.1.24</TD>
+<TD>17/07/18</TD>
+<TD>フリーのx86仮想マシン。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.dosemu.org/">dosemu </A></TD>
+<TD>1.4.0</TD>
+<TD>07/05/05</TD>
+<TD>MS-DOSエミュレータ。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.winehq.com/">Wine </A></TD>
+<TD>3.0<BR>3.7</TD>
+<TD>18/01/18<BR>18/04/27</TD>
+<TD>Windowsアプリ実行環境。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.snes9x.com/">Snes9x </A></TD>
+<TD>1.5</TD>
+<TD>06/04/07</TD>
+<TD>スーファミエミュレータ。</TD>
+</TR>
+
+<TR>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+</TR>
+
+<TR>
+<TH BGCOLOR="#8888FF" COLSPAN=4><FONT SIZE=4 COLOR="#FFFFFF">Officeアプリ</FONT></TH>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.calligra.org/">Calligra </A></TD>
+<TD>3.1.0</TD>
+<TD>18/02/01</TD>
+<TD>KDEのオフィススイートKOfficeが名前を変更。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.libreoffice.org/">Libre Office </A></TD>
+<TD>6.0.3</TD>
+<TD>18/04/05</TD>
+<TD>Open Office.orgからフォークした実装。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://member.wide.ad.jp/wg/mgp/">MagicPoint </A></TD>
+<TD>1.13a</TD>
+<TD>08/02/14</TD>
+<TD>PowerPointのようなプレゼンテーションソフト。<BR>
+関連:
+<A HREF="http://puchol.com/cpg/software/mgp/">The MagicPoint Gallery </A>
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.ghostscript.com/">Ghostscript </A></TD>
+<TD>9.23</TD>
+<TD>18/03/21</TD>
+<TD>Postscriptインタプリタ。<BR>
+関連:
+<A HREF="http://www.khotta.org/ghost/">日本語対応情報はここ。 </A>
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.adobe.com/prodindex/acrobat/readstep.html">Adobe Acrobat Reader DC</A></TD>
+<TD>2017.009.20044</TD>
+<TD>17/04/06</TD>
+<TD>Adobe社が配布するPDFブラウザ。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.jpilot.org/">J-Pilot </A></TD>
+<TD>1.8.2</TD>
+<TD>14/05/24</TD>
+<TD>PalmデスクトップのLinux版。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://redmine.jp/">Redmine </A></TD>
+<TD>3.4.5</TD>
+<TD>18/04/08</TD>
+<TD>WEBベースのプロジェクト管理ソフト。</TD>
+</TR>
+
+<TR>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+</TR>
+
+<TR>
+<TH BGCOLOR="#8888FF" COLSPAN=4><FONT SIZE=4 COLOR="#FFFFFF">DOS / Windows プログラム</FONT></TH>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.fs-driver.org/index.html">Ext2 IFS </A></TD>
+<TD>1.11</TD>
+<TD>08/01/28</TD>
+<TD>ext2-fsをWindowsドライブとして見せるドライバ。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www8.pair.com/dmurdoch/programs/showfat.htm">showFAT </A></TD>
+<TD>3.03</TD>
+<TD>　</TD>
+<TD>HDD上のファイル配置を表示するWindowsツール。
+fips.exeを適用する前に、デフラグで移動できなかったファイルの名前を割り出すために使う。</TD>
+</TR>
+
+<TR>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+</TR>
+
+<TR>
+<TH BGCOLOR="#8888FF" COLSPAN=4><FONT SIZE=4 COLOR="#FFFFFF">Linux ディストリビューション</FONT></TH>
+</TR>
+
+<TR>
+<TD><A HREF="http://simosnet.com/livecdroom/">ライブCDの部屋 </A></TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>数多くのCDブートLinuxを日本語化して配布されています。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.jp.redhat.com/">RedHat Enterprise Linux </A></TD>
+<TD>7.5</TD>
+<TD>18/04/10</TD>
+<TD>商用Linuxのメインストリーム。<BR>
+<A HREF="http://www.fedoralegacy.org/updates/RH9/">Fedora Legacy </A>
+<A HREF="http://dag.wieers.com/packages/">DAG Packages </A>
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://linux.oracle.com/">Oracle Linux </A></TD>
+<TD>7.5</TD>
+<TD>18/04/18</TD>
+<TD>RHELベースのOracleカスタムLinux。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://fedoraproject.org/">Fedora</A></TD>
+<TD>28</TD>
+<TD>18/05/01</TD>
+<TD>人柱向けDistro。<BR>
+<A HREF="http://pidora.ca/">Pidora </A>
+<A HREF="http://www.fedora.jp/">Fedora JP Project </A>
+<A HREF="http://download.fedora.redhat.com/pub/fedora/linux/core/development/source/SRPMS/">rawhide </A>
+<A HREF="http://download.fedora.redhat.com/pub/fedora/linux/extras/development/SRPMS/">extras </A>
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.centos.org/">CentOS </A></TD>
+<TD>7.4.1708</TD>
+<TD>17/09/13</TD>
+<TD>RHELベースの改変・配布自由なDistro。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="https://www.scientificlinux.org/">Scientific Linux </A></TD>
+<TD>7.4</TD>
+<TD>17/10/07</TD>
+<TD>RHELベースの改変・配布自由なDistro。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://ja.opensuse.org/">openSUSE </A></TD>
+<TD>42.3</TD>
+<TD>18/05/01</TD>
+<TD>Novell → Attachmate と翻弄されてるけど、大丈夫かな？<BR>
+<A HREF="http://www.novell.com/linux/download/updates/90_i386.html">SUSE 9.0 updates </A>
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.archlinux.org/">Arch Linux </A></TD>
+<TD>2017.07.01</TD>
+<TD>17/07/01</TD>
+<TD>軽量・シンプルが特長のディストリビューション。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://manjaro.org/">Manjaro Linux </A></TD>
+<TD>17.1.8</TD>
+<TD>18/04/17</TD>
+<TD>GUIインストーラ付きのArch Linuxとか。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.gentoo.org/">Gentoo Linux </A></TD>
+<TD>20160514</TD>
+<TD>16/05/14</TD>
+<TD>カスタマイズ性が高いことが特長のディストリビューション。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.sabayonlinux.org/">Sabayon Linux </A></TD>
+<TD>16.11</TD>
+<TD>16/10/29</TD>
+<TD>Gentoo Linuxをベースにしたオサレなデスクトップ。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.linuxfromscratch.org/">Linux From Scratch </A></TD>
+<TD>8.2</TD>
+<TD>18/03/02</TD>
+<TD>ゼロからLinuxのルートファイルシステムをブートストラップするための手順書。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://vinelinux.org/">Vine Linux </A></TD>
+<TD>6.5</TD>
+<TD>17/04/03</TD>
+<TD>最近は存在価値が無くなったように感じる…。<BR>
+<A HREF="http://vinelinux.org/roadmap.html">ロードマップ </A>
+<A HREF="http://vinelinux.org/errata.html">更新／障害情報 </A>
+<A HREF="http://vinelinux.org/seed/index.html">VineSeedの最新情報 </A>
+<A HREF="ftp://core.ring.gr.jp/pub/linux/Vine/VineSeed/">VineSeed FTP </A>
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.momonga-linux.org/">Momonga Linux </A></TD>
+<TD>6 Plus<BR>7</TD>
+<TD>09/11/16<BR>10/09/13</TD>
+<TD>Kondaraの後継。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.slackware.com/">Slackware </A></TD>
+<TD>14.2</TD>
+<TD>16/07/01</TD>
+<TD>いちおうチェックしておく。<BR>
+関連:
+<A HREF="http://www.slax.org/">Slax </A>
+<A HREF="http://www.slamd64.com/">Slamd64 </A>
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.debian.or.jp/">Debian </A></TD>
+<TD>9(Stretch)</TD>
+<TD>17/06/17</TD>
+<TD>いちおうチェックしておく。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.ubuntulinux.org/">Ubuntu </A></TD>
+<TD>18.04 LTS</TD>
+<TD>18/04/26</TD>
+<TD>Debianベースの注目Distro。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.linuxmint.com/">Linux Mint </A></TD>
+<TD>18.3</TD>
+<TD>17/11/27</TD>
+<TD>Debian/UbuntuベースのDistro。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.knoppix.org/">Knoppix </A></TD>
+<TD>7.7.1</TD>
+<TD>16/10/27</TD>
+<TD>DebianベースのCD-ROMブートLinux。<BR>
+<A HREF="http://www.rcis.aist.go.jp/project/knoppix/">AIST版</A>
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.kalilinux.net/">Kali Linux</A></TD>
+<TD>2018.2</TD>
+<TD>18/04/30</TD>
+<TD>ペネトレーションテストツールのコレクション。BackTrack から Kali に改名。<BR>
+関連:
+<A HREF="http://www.backtrack-linux.org/">BackTrack</A>
+<A HREF="http://www.gnacktrack.co.uk/">GnackTrack R6</A>
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.caine-live.net/">CAINE</A></TD>
+<TD>9.0</TD>
+<TD>17/10/25</TD>
+<TD>ペネトレーションテストツールのコレクション。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.pentoo.ch/">Pentoo </A></TD>
+<TD>2015.0 RC5</TD>
+<TD>16/08/02</TD>
+<TD>ペネトレーションテストツールのコレクション。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://nixos.org/">NixOS </A></TD>
+<TD>18.03</TD>
+<TD>18/02/22</TD>
+<TD>純粋関数型Linux実験プロジェクト？</TD>
+</TR>
+
+<TR>
+<TD><A HREF="https://coreos.com/">Core OS </A></TD>
+<TD>557.2.0</TD>
+<TD>15/02/04</TD>
+<TD>Dockerを利用したサーバ/クラスタ/クラウド向けLinuxディストリビューション。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://tinycorelinux.net/">Tiny Core Linux </A></TD>
+<TD>9.0</TD>
+<TD>18/02/26</TD>
+<TD>爆速でＸが起動するLiveCD。<BR>
+関連:
+<A HREF="http://tinycorelinux.net/5.x/armv6/release/5.3/">piCore </A>
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://dirk.eddelbuettel.com/quantian.html">Quantian </A></TD>
+<TD>0.7.9.2</TD>
+<TD>06/03/01</TD>
+<TD>科学技術計算ソフトのコレクション。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.montavista.co.jp/">MontaVista Linux </A></TD>
+<TD>6</TD>
+<TD>09/05/21</TD>
+<TD>組み込み向けLinux。StrongARM対応(^^)。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://ezaurus.com/index.html">Linux Zaurus </A></TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>SL-C760発表で、祭り開始～(^^)。<BR>
+関連:
+<A HREF="http://developer.ezaurus.com/">ザウルス宝箱Pro </A>
+<A HREF="http://www2.cnet.ne.jp/poex/">LinuxZaurus Maniacs </A>
+<A HREF="http://digit.que.ne.jp/visit/">Walrus, Visit </A>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.minix3.org/">Minix </A></TD>
+<TD>3.3.0</TD>
+<TD>14/09/16</TD>
+<TD>Linuxではないけど、祖先も別方向に進化中？。
+</TR>
+
+<TR>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+</TR>
+
+<TR>
+<TH BGCOLOR="#8888FF" COLSPAN=4><FONT SIZE=4 COLOR="#FFFFFF">ショップ / ベンダ</FONT></TH>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.lynuxworks.com/">Lynux Works </A></TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>Lynx社がLinuxに本腰を入れて社名を変更。<BR>
+製品名は<A HREF="http://www.lynuxworks.com/products/whatisbcl.html">BlueCat Linux </A>。
+</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.vxworks.com/">Wind River Systems </A></TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>VxWorksの開発元。Linuxには未参入のよう。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.plathome.co.jp/">ぷらっとホーム </A></TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>秋葉原のショップ。</TD>
+</TR>
+
+<TR>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+</TR>
+
+<TR>
+<TH BGCOLOR="#8888FF" COLSPAN=4><FONT SIZE=4 COLOR="#FFFFFF">プロジェクト</FONT></TH>
+</TR>
+
+<TR>
+<TD><A HREF="http://jla.linux.or.jp/">日本Linux協会(JLA) </A></TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>日本でLinuxの情報が一番集まっていたところ。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://jf.linux.or.jp/">JF </A></TD>
+<TD>　</TD>
+<TD>06/03/01</TD>
+<TD>Linuxに関する日本語ドキュメント集。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.linux.or.jp/JM/">JM </A></TD>
+<TD>20060315</TD>
+<TD>06/03/15</TD>
+<TD>オンラインマニュアルを日本語化したもの。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.osdlab.org/">Open Source Development Lab </A></TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>Linux の enterprise 用機能を強化するための組織。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.pathname.com/fhs/">Filesystem Hierarchy Standard </A></TD>
+<TD>2.3</TD>
+<TD>04/01/29</TD>
+<TD>ディレクトリ階層標準化の規定。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://core.ring.gr.jp">Ring Server Poject </A></TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>組織的な大規模ソフトウェアのミラーリング。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://metalab.unc.edu/LDP/">The Linux Documentation Project </A></TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>MAN,FAQ,HOWTO等のドキュメント作成・配布。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.linux-usb.org/">Linux USB Project </A></TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>2.4系カーネルへのマージ完了。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.linux1394.org/">IEEE 1394 for Linux </A></TD>
+<TD>0.9.0</TD>
+<TD>00/05/25</TD>
+<TD>FireWire/i.Link ドライバ。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.linmodems.org/">Linux Winmodem Support </A></TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>Winmodemドライバ。どの程度使えるのか不明。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.go-mono.com/">Mono </A></TD>
+<TD>2.8.1</TD>
+<TD>10/11/19</TD>
+<TD>.NET互換環境の構築をめざす。C#コンパイラも。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://handhelds.org/">Open Handhelds </A></TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>iPAQで動作するLinux。</TD>
+</TR>
+
+<TR>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+</TR>
+
+<TR>
+<TH BGCOLOR="#8888FF" COLSPAN=4><FONT SIZE=4 COLOR="#FFFFFF">セキュリティ関連</FONT></TH>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.st.ryukoku.ac.jp/~kjm/security/memo/">セキュリティホールmemo </A></TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.securityfocus.com/">SecurityFocus(Bugtraq) </A></TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.ipa.go.jp/security/fy13/report/secure_os/secure_os.html">オペレーティングシステムのセキュリティ機能拡張の調査 </A></TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+</TR>
+
+<TR>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>　</TD>
+</TR>
+
+<TR>
+<TH BGCOLOR="#8888FF" COLSPAN=4><FONT SIZE=4 COLOR="#FFFFFF">情報検索</FONT></TH>
+</TR>
+<TD><a href="http://www.ibiblio.org/pub/Linux/">ibiblio</a></TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>ドキュメント・プログラムの検索。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://rpmfind.net/">rpmfind.net </A></TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>RPMファイルを探す。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.openpkg.org/">OpenPKG Project </A></TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>Unix向けソフトウェアパッケージ集。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://search.luky.org/">Linux関連ドキュメント検索 </A></TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>ML過去ログの全文検索。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.linux.or.jp/community/ml/linux-users/index.html">linux-users ML </A></TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>LINUXに関する一般的な話題を扱うML。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.linuxplanet.com/linuxplanet/">Linux Planet </A></TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>プログラミング関連情報が豊富。</TD>
+</TR>
+
+<TR>
+<TD><A HREF="http://www.m17n.org/">多言語化(m17n) </A></TD>
+<TD>　</TD>
+<TD>　</TD>
+<TD>UTF-2000などの情報。</TD>
+</TR>
+</TABLE></CENTER>
+<P>
+<HR>
+</body>
+</html>
+
